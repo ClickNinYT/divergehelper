@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "divergehelper",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "DivergeHelper",
+  "description": "Helper library to assist in adding new content to Minecraft Diverge.",
   "authors": [
-    "Me!"
+    "ClickNin"
   ],
   "contact": {
-    "homepage": "",
-    "sources": ""
+    "homepage": "https://github.com/ClickNinYT/divergehelper",
+    "sources": "https://github.com/ClickNinYT/divergehelper"
   },
 
-  "license": "CC0-1.0",
-  "icon": "modicon.png",
+  "license": "MIT",
+  "icon": "assets/divergehelper/modicon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-        "com.example.examplemod.ExampleMod"
+      "me.clicknin.divergehelper.DivergeHelper"
     ]
   },
   "mixins": [
-      "examplemod.mixins.json"
+    "divergehelper.mixins.json"
   ],
 
   "depends": {

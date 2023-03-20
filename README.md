@@ -1,4 +1,3 @@
-# diverge-example-mod
+# divergehelper
 
-Babric example mod for Minecraft Diverge.
-
+Unfinished and terrible helper library for Minecraft Diverge Babric mods.
