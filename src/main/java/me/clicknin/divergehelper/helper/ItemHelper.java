@@ -4,13 +4,13 @@ import io.github.bluestaggo.mcdiverge.ItemTooltip;
 import me.clicknin.divergehelper.util.TextureUtil;
 import net.minecraft.src.Item;
 
-import java.util.HashMap;
+import static io.github.bluestaggo.mcdiverge.ItemTooltip.items;
 
 public class ItemHelper {
-    public static HashMap<Integer, ItemTooltip> itemTooltipList = new HashMap<Integer, ItemTooltip>();
-    public static Item registerItem(Item item, ItemTooltip tooltip, int id, String texture, int atlasX, int atlasY) {
+
+    public static Item registerItem(Item item, ItemTooltip tooltip, String texture, int atlasX, int atlasY) {
         item.setIconIndex(TextureUtil.addToAtlas(texture, "/gui/items.png", atlasX, atlasY));
-        itemTooltipList.put(id, tooltip);
+        items[item.shiftedIndex] = tooltip;
         return item;
     }
 }

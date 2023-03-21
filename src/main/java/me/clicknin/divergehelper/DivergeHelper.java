@@ -11,7 +11,7 @@ public class DivergeHelper implements ModInitializer {
     public static final String MOD_ID = "divergehelper";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-    public static final Item exampleItem = ItemHelper.registerItem(new ItemExample(2006), new ItemTooltip("Example Item"), 2006, "/assets/divergehelper/item/example_item.png", 5, 2);
+    public static final Item exampleItem = ItemHelper.registerItem(new ItemExample(2006), new ItemTooltip("Example Item"), "/assets/divergehelper/item/example_item.png", 5, 2);
 
     @Override
     public void onInitialize(){
