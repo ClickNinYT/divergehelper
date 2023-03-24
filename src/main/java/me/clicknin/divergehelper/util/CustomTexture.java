@@ -1,12 +1,13 @@
 package me.clicknin.divergehelper.util;
 
-import java.awt.image.BufferedImage;
-
 public class CustomTexture {
-    public BufferedImage atlas;
-    public String atlasFile;
-    public CustomTexture(BufferedImage atlas, String atlasFile) {
-        this.atlas = atlas;
-        this.atlasFile = atlasFile;
+    public String textureFile;
+    public int x;
+    public int y;
+
+    public CustomTexture(String textureFile, int x, int y) {
+        this.textureFile = textureFile;
+        this.x = x;
+        this.y = y;
     }
 }
