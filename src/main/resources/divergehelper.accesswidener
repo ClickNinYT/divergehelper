@@ -1,0 +1,16 @@
+accessWidener	v1	named
+
+# Block stuff
+accessible method net/minecraft/src/Block textureXY (II)I
+accessible method net/minecraft/src/Block <init> (ILnet/minecraft/src/Material;)V
+accessible method net/minecraft/src/Block <init> (IILnet/minecraft/src/Material;)V
+accessible method net/minecraft/src/Block setStepSound (Lnet/minecraft/src/StepSound;)Lnet/minecraft/src/Block;
+accessible method net/minecraft/src/Block setLightOpacity (I)Lnet/minecraft/src/Block;
+accessible method net/minecraft/src/Block setLightValue (F)Lnet/minecraft/src/Block;
+accessible method net/minecraft/src/Block setResistance (F)Lnet/minecraft/src/Block;
+accessible method net/minecraft/src/Block setHardness (F)Lnet/minecraft/src/Block;
+
+# Item stuff
+accessible method net/minecraft/src/Item textureXY (II)I
+accessible method net/minecraft/src/Item <init> (I)V
+

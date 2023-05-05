@@ -1,5 +1,5 @@
 plugins {
-	id 'babric-loom' version '0.12-SNAPSHOT'
+	id 'babric-loom' version '1.1.+'
 	id 'java'
 }
 
@@ -8,10 +8,10 @@ archivesBaseName = project.mod_name
 version = project.mod_version
 
 loom {
-        //server isn't gonna work anyways
-	clientOnlyMinecraftJar()
+	gluedMinecraftJar()
 	noIntermediateMappings()
-	customMinecraftManifest.set("https://github.com/ClickNinYT/diverge-deobf/releases/download/${project.diverge_version}/mcdiverge.json")
+	customMinecraftManifest.set("https://github.com/ClickNinYT/diverge-deobf/releases/download/0.3_a4/mcdiverge.json")
+	accessWidenerPath = file("src/main/resources/divergehelper.accesswidener")
 }
 
 repositories {

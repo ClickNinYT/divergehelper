@@ -4,8 +4,7 @@
     "package": "me.clicknin.divergehelper.mixin",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
-        "MinecraftMixin",
-        "BlockAccessor"
+        "MinecraftMixin"
     ],
     "client": [
     ],

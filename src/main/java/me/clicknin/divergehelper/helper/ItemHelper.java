@@ -1,10 +1,10 @@
 package me.clicknin.divergehelper.helper;
 
-import io.github.bluestaggo.mcdiverge.ItemTooltip;
 import me.clicknin.divergehelper.util.TextureUtil;
 import net.minecraft.src.Item;
+import net.minecraft.src.ItemTooltip;
 
-import static io.github.bluestaggo.mcdiverge.ItemTooltip.items;
+import static net.minecraft.src.ItemTooltip.items;
 
 public class ItemHelper {
 

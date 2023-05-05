@@ -16,6 +16,8 @@
   "license": "MIT",
   "icon": "assets/divergehelper/modicon.png",
 
+  "accessWidener" : "divergehelper.accesswidener",
+
   "environment": "*",
   "entrypoints": {
     "main": [
